@@ -1,12 +1,12 @@
 # 美味食物 (Yummy Food) — MC 1.20.1 Forge 移植版
 
-将 1.19.2 MCreator 模组《美味食物》(BetaV5.0.1) 移植到 **Minecraft 1.20.1 / Forge 47.4.22**。
+将 1.19.2 模组《美味食物》(BetaV5.0.1) 移植到 **Minecraft 1.20.1 / Forge 47.4.22**。
 
 ## 环境要求
 
-- **JDK 17**（本机已装：`C:\Program Files\Java\jdk-17`，见 gradle.properties）
-- Gradle 8.1.1（wrapper 已配置腾讯镜像，无需手动安装）
-- IDE：IntelliJ IDEA（File → Open 打开本目录，等待 Gradle 同步）
+- **JDK 17**（
+- Gradle 8.1.1
+- IDE：IntelliJ IDEA
 
 ## 常用命令（项目根目录）
 
@@ -46,12 +46,3 @@ gradlew runData        # 运行数据生成器
 | `mods.toml` | `loaderVersion [47,)`，补充 `forge` 依赖 |
 | `pack.mcmeta` | `pack_format` 9 → 15 |
 
-## 注意
-
-- 世界生成改用数据包 JSON 后，不再需要原来的 4 个 `XxxFeature.java` 类和 `YummyFoodModFeatures`（已删除）
-- 原模组为 MCreator 生成（`net.mcreator.yummyfood` 包名），代码风格保留
-- 首次打开工程 Gradle 会下载依赖（已配置阿里云/腾讯镜像加速）
-
-## 产物
-
-`build/libs/yummy_food-1.0.0.jar` —— 可直接放入 1.20.1 Forge 客户端的 mods 文件夹游玩。
