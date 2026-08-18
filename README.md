@@ -5,17 +5,7 @@
 ## 环境要求
 
 - **JDK 17**（
-- Gradle 8.1.1
-- IDE：IntelliJ IDEA
 
-## 常用命令（项目根目录）
-
-```
-gradlew build          # 编译 + 打包（产物在 build/libs/yummy_food-1.0.0.jar）
-gradlew runClient      # 启动游戏测试
-gradlew runServer      # 启动服务器测试
-gradlew runData        # 运行数据生成器
-```
 
 ## 蒸炉工作逻辑（v1.1.0）
 
