@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "yummy_food:cleanwhiteradish"
+    },
+    {
+      "item": "yummy_food:whiteradishcube"
+    },
+    {
+      "item": "yummy_food:dicedcarrot"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "yummy_food:radishsoup",
+    "count": 1
+  }
+}

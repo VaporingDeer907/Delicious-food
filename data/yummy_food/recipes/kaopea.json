@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "yummy_food:pea_1"
+  },
+  "result": "yummy_food:peacrisp"
+}

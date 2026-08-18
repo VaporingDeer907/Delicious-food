@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "yummy_food:whiteradishcube"
+    },
+    {
+      "item": "yummy_food:whiteradishcube"
+    },
+    {
+      "item": "yummy_food:whiteradishcube"
+    },
+    {
+      "item": "yummy_food:dough"
+    }
+  ],
+  "result": {
+    "item": "yummy_food:undercookeddaikondumplings",
+    "count": 1
+  }
+}

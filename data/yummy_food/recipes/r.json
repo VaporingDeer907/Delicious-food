@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "yummy_food:mashedgarlic"
+    },
+    {
+      "item": "yummy_food:rawmincedpork"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "yummy_food:semifinishedstirfriedpork",
+    "count": 1
+  }
+}

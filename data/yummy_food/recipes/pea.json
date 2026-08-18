@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "yummy_food:paddy"
+    }
+  ],
+  "result": {
+    "item": "yummy_food:pea_1",
+    "count": 1
+  }
+}

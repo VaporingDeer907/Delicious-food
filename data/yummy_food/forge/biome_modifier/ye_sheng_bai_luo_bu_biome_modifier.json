@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "yummy_food:ye_sheng_bai_luo_bu",
+  "step": "vegetal_decoration"
+}

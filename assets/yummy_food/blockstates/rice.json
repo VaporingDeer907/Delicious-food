@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "yummy_food:block/rice"
+    },
+    "half=lower": {
+      "model": "yummy_food:block/rice_bottom"
+    }
+  }
+}

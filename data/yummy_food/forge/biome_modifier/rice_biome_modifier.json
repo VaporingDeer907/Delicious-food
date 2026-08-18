@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "forest",
+    "river"
+  ],
+  "features": "yummy_food:rice",
+  "step": "vegetal_decoration"
+}

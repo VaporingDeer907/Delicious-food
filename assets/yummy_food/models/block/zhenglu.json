@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "yummy_food:blocks/steamer",
+    "up": "yummy_food:blocks/zhenglong",
+    "north": "yummy_food:blocks/steamer",
+    "east": "yummy_food:blocks/steamer",
+    "south": "yummy_food:blocks/steamer",
+    "west": "yummy_food:blocks/steamer",
+    "particle": "yummy_food:blocks/steamer"
+  },
+  "render_type": "solid"
+}

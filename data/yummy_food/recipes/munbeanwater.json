@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "yummy_food:mungbean"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "item": "yummy_food:mungbeansugarwater",
+    "count": 1
+  }
+}
