@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven {
+            name = 'Forge'
+            url = 'https://maven.minecraftforge.net/'
+        }
+    }
+}
+
+// Mirrors to speed up dependency downloads in CN networks. Remove if not needed.
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
+    repositories {
+        maven {
+            name = 'AliyunMaven'
+            url = 'https://maven.aliyun.com/repository/public'
+        }
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'yummy_food'
