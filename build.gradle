@@ -55,10 +55,24 @@ sourceSets.main.resources {
 }
 
 repositories {
+    // JEI (Just Enough Items)
+    maven {
+        name = 'JEI'
+        url = 'https://maven.blamejared.com/'
+    }
+}
+
+configurations {
+    localRuntime
+    runtimeClasspath.extendsFrom localRuntime
 }
 
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+    // JEI integration: compile against the API only.
+    // JEI is an optional mod at runtime; it is NOT bundled and NOT required in dev.
+    // (Running the full JEI jar in a userdev client fails with a known NoSuchFieldError - test integration in the real game.)
+    compileOnly("mezz.jei:jei-1.20.1-forge-api:15.49.0.190")
 }
 
 processResources {
